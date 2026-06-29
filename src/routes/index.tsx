@@ -13,19 +13,19 @@ import {
   MessageCircle,
 } from "lucide-react";
 
-const heroVideo = "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4";
-const catWc = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=800&h=800&fit=crop";
-const catBasin = "https://images.unsplash.com/photo-1560769625-97889f671981?w=800&h=800&fit=crop";
-const catFaucet = "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=800&h=800&fit=crop";
-const catTiles = "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=800&h=800&fit=crop";
-const catChimney = "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=800&fit=crop";
-const catHeater = "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=800&h=800&fit=crop";
-const featureBasin = "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=1600&h=2000&fit=crop";
-const featureSmart = "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1920&h=1080&fit=crop";
-const featureGreen = "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=1600&h=1000&fit=crop";
-const blog1 = "https://images.unsplash.com/photo-1560769625-97889f671981?w=900&h=600&fit=crop";
-const blog2 = "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=900&h=600&fit=crop";
-const blog3 = "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=900&h=600&fit=crop";
+const heroVideo = "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4";
+const catWc = "https://picsum.photos/id/1025/800/800";
+const catBasin = "https://picsum.photos/id/1074/800/800";
+const catFaucet = "https://picsum.photos/id/1024/800/800";
+const catTiles = "https://picsum.photos/id/1023/800/800";
+const catChimney = "https://picsum.photos/id/1068/800/800";
+const catHeater = "https://picsum.photos/id/1080/800/800";
+const featureBasin = "https://picsum.photos/id/1025/1600/2000";
+const featureSmart = "https://picsum.photos/id/1070/1920/1080";
+const featureGreen = "https://picsum.photos/id/1080/1600/1000";
+const blog1 = "https://picsum.photos/id/1074/900/600";
+const blog2 = "https://picsum.photos/id/1023/900/600";
+const blog3 = "https://picsum.photos/id/1068/900/600";
 
 export const Route = createFileRoute("/")({
   component: Home,
